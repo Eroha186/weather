@@ -1,5 +1,6 @@
 
 $(document).ready(function() {
+
 	$('.button').bind('click', function() {
 		event.preventDefault();
 		var cityName = $('.cityName').val();
@@ -14,7 +15,7 @@ $(document).ready(function() {
 				var con = arrayWeather.fact.condition;
 				//направление ветра 
 				var wind_dir_var = arrayWeather.fact.wind_dir;
-				$(".resault").empty().append(
+				$(".result").empty().append(
 					'<p>Город: ' + cityName + '</p>',
 					'<p>Температура: ' + arrayWeather.fact.temp + '</p>',
 					'<p>Ощущаемая температура: ' + arrayWeather.fact.feels_like + '</p>',

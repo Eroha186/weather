@@ -14,9 +14,9 @@ $(function(){
       }
   })
       
-  $(".search_result").hover(function(){
-      $(".cityName").blur(); //Убираем фокус с input
-  })
+  // $(".search_result").hover(function(){
+  //     $(".cityName").blur(); //Убираем фокус с input
+  // })
       
   //При выборе результата поиска, прячем список и заносим выбранный результат в input
   $(".search_result").on("click", "li", function(){
