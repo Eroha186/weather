@@ -1,0 +1,6 @@
+{
+    "name": "alex/php",
+    "require": {
+        "curl/curl": "2.2.0"
+    }
+}
