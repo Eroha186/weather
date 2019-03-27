@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #eeeded;
+}
+
+.titlle {
+	margin: 0;
+	padding-top: 20px;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.container {
+	width: 65%;
+	height: 100vh;
+	padding: 5px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+form {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.cityName {
+	font-size: 20px;
+	width: 75%;
+	padding-top: 7px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+	outline: none;
+	border: 2px solid #225AF0;
+	border-radius: 7px;
+}
+
+.button {
+	font-size: 20px;
+	background: #fff;
+	padding: 7px 7px 6px 7px;	
+	color: #fff;
+	border-radius: 7px;
+	background: #225AF0;
+	border: 2px solid #225AF0;
+	cursor: pointer;
+}
+.button:hover {
+	background: #fff;
+	color: #000;
+}
+
+.resault {
+	padding-left: 69px;
+}

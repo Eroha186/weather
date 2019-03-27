@@ -33,7 +33,7 @@
       if (isset($lat) && isset($lon)) {
        
         $arrayWeather = new curl();
-        $arrayWeather->setHeader('X-Yandex-API-Key', '');
+        $arrayWeather->setHeader('X-Yandex-API-Key', '770f38e6-79e0-4154-86f5-311625392bd9');
         $arrayWeather->get('https://api.weather.yandex.ru/v1/forecast', array(
           'lat' => "$lat",
           'lon' => "$lon",

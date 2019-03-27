@@ -23,6 +23,7 @@ $(document).ready(function() {
 					'<p>Скорость порывов ветра: ' + arrayWeather.fact.wind_gust + ' м/с</p>',
 					'<p>Направление ветра: ' + wind_dir(wind_dir_var) + '</p>',
 					'<p>Давление: ' + arrayWeather.fact.pressure_mm + ' мм рт.ст.</p>',
+					'<p>Влажность: ' + arrayWeather.fact.humidity + ' %</p>',
 				);	
 
 			}
