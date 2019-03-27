@@ -6,7 +6,7 @@ if(!empty($_POST["cityName"])){ //Принимаем данные
 
     $referal = trim(strip_tags(stripcslashes(htmlspecialchars($_POST["cityName"]))));
 
-    $db_referal = $mysqli -> query("SELECT * from cityes search WHERE name LIKE '%$referal%'")
+    $db_referal = $mysqli -> query("SELECT * from cityes WHERE name LIKE '%$referal%'")
     or die('Ошибка №'.__LINE__.'<br>Обратитесь к администратору сайта пожалуйста, сообщив номер ошибки.');
 
     while ($row = $db_referal -> fetch_array()) {

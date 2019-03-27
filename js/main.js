@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 
-	$('.button').bind('click', function() {
+	$('.button').click(function() {
 		event.preventDefault();
 		var cityName = $('.cityName').val();
 		$('.cityName').val('');

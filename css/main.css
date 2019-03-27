@@ -51,6 +51,7 @@ form {
 	border-radius: 7px;
 	background: #225AF0;
 	border: 2px solid #225AF0;
+	outline: none;
 	cursor: pointer;
 }
 .button:hover {
