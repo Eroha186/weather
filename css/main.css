@@ -59,12 +59,12 @@ form {
 	color: #000;
 }
 
-.resault {
-	padding-left: 69px;
+.result {
+	padding-left: 9.5%;
 }
 
 .search_result{
-	margin: -3px 67px;
+	margin: -3px 9.5%;
 	background: #FFF;
 	border: 1px #ccc solid;
 	width: 74%;

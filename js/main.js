@@ -3,6 +3,7 @@ $(document).ready(function() {
 
 	$('.button').click(function() {
 		event.preventDefault();
+                $(".search_result").css({'display':'none'}); 
 		var cityName = $('.cityName').val();
 		$('.cityName').val('');
 		$.ajax({
